@@ -85,7 +85,7 @@ function App() {
   // ======== FUNGSI KIRIM KE WHATSAPP ========
   const sendOrderToWhatsApp = (orderData) => {
     // Nomor WhatsApp admin kantin (GANTI DENGAN NOMOR ANDA)
-    const adminPhone = "6285603314478"; // Format: 62xxx (kode negara + nomor)
+    const adminPhone = "6289667709933"; // Format: 62xxx (kode negara + nomor)
     
     // Format payment info
     let paymentInfo = '';
@@ -237,9 +237,7 @@ _Pesan otomatis dari Aplikasi Kantin_`;
         )}
       </main>
 
-      <footer className="app-footer">
-        <p>🚀 Database: JSON Server | Port: 3001</p>
-        <p>📁 Data tersimpan di file <code>db.json</code></p>
+      <footer className="app-footer"> 
       </footer>
     </div>
   );
