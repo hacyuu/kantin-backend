@@ -73,7 +73,7 @@ function AddMenu({ onMenuAdded }) {
       };
 
       // POST ke JSON Server
-      const response = await axios.post('http://localhost:3001/menu', newMenu);
+      const response = await axios.post('/menu', newMenu);
       
       // Success
       setShowSuccess(true);

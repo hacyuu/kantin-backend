@@ -1,0 +1,76 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Nasi Goreng",
+      "price": 25000,
+      "category": "makanan",
+      "description": "Nasi goreng spesial dengan telur dan ayam",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=150"
+    },
+    {
+      "id": 2,
+      "name": "Mie Goreng",
+      "price": 20000,
+      "category": "makanan",
+      "description": "Mie goreng dengan sayuran dan udang",
+      "image": "https://images.unsplash.com/photo-1559314809-2b99056a8c4a?w-150"
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "wqdwawd",
+      "customerLocation": "daw",
+      "notes": "",
+      "items": [
+        {
+          "id": 1,
+          "name": "Nasi Goreng",
+          "price": 25000,
+          "category": "makanan",
+          "description": "Nasi goreng spesial dengan telur dan ayam",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=150",
+          "quantity": 1
+        }
+      ],
+      "total": 25000,
+      "status": "pending",
+      "orderDate": "2025-12-16T13:50:26.685Z",
+      "id": 1
+    },
+    {
+      "customerName": "a\\budi",
+      "customerLocation": "awdawd",
+      "notes": "",
+      "items": [
+        {
+          "id": 1,
+          "name": "Nasi Goreng",
+          "price": 25000,
+          "category": "makanan",
+          "description": "Nasi goreng spesial dengan telur dan ayam",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=150",
+          "quantity": 1
+        }
+      ],
+      "total": 25000,
+      "status": "pending",
+      "orderDate": "2025-12-16T13:52:00.210Z",
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "makanan"
+    },
+    {
+      "id": 2,
+      "name": "minuman"
+    },
+    {
+      "id": 3,
+      "name": "snack"
+    }
+  ]
+}
